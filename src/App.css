@@ -79,7 +79,7 @@ html, body {overflow-x: scroll;}
   display: flex;
   justify-content: space-between;
   width: 50%;
-  margin: auto;
+  margin-left: 50px;
 }
 
 .social-links a {

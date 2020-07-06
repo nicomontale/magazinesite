@@ -23,7 +23,7 @@ class LandingPage extends Component {
                                 </a>
                                 {/* GitHub */}
                                 <a href="https://github.com/nicomontale" rel="noopener noreferrer" target="_black">
-                                    <i className="fa fa-email-square" aria-hidden="true" />
+                                    <i className="fa fa-envelope" aria-hidden="true" />
                                 </a>
                             </div>
                         </div>
