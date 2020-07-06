@@ -36,7 +36,7 @@ class App extends React.Component{
         <Navigation>
         <Link  style={{textDecoration:'white', color:'white', fontSize:'20px', fontFamily: 'Roboto Mono,monospace'}} to="/">HOME</Link>
         <Link style={{textDecoration:'white' ,fontSize:'20px', fontFamily: 'Roboto Mono,monospace' }} to="/project">PROJECTS</Link>
-            <Link  style={{textDecoration:'white',fontSize:'20px', fontFamily: 'Roboto Mono,monospace'}} to="/resume">RESUME</Link>
+            
            
           
         </Navigation>
@@ -45,7 +45,7 @@ class App extends React.Component{
         <Navigation className="mdl-navigation-drawer">
         <Link onClick={()=>document.querySelector('.mdl-layout__drawer').addEventListener('click', this.close())}  style={{textDecoration:'white', color:'white', fontSize:'20px', fontFamily: 'Roboto Mono,monospace'}} to="/">HOME</Link>
         <Link onClick={()=>document.querySelector('.mdl-layout__drawer').addEventListener('click', this.close())}  style={{textDecoration:'white',color:'white', fontSize:'20px', fontFamily: 'Roboto Mono,monospace'}} to="/project">PROJECTS</Link>
-        <Link onClick={()=>document.querySelector('.mdl-layout__drawer').addEventListener('click', this.close())}  style={{textDecoration:'white', color:'white', fontSize:'20px', fontFamily: 'Roboto Mono,monospace'}} to="/resume">RESUME</Link>
+        
         
         
         </Navigation>
