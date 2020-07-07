@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import img1 from '../components/journal.png';
-import img_triporate from '../components/journal.png';
+
 import Tappable from 'react-tappable/lib/Tappable';
-import img3 from '../components/tesi.png';
+
 
 
 
@@ -34,7 +34,7 @@ class Project extends Component {
 
                         onClick={this.handleShowDialogNTT}
                     >
-                        <img src={img1} alt="ntt data" height="350px" width="480px" onClick={this.handleShowDialogNTT} />
+                        <img src={img1} alt="article 1" height="350px" width="480px" onClick={this.handleShowDialogNTT} />
                     </dialog>
                 )
             )
@@ -49,7 +49,7 @@ class Project extends Component {
 
                         onClick={this.handleShowDialogTrip}
                     >
-                        <img src={img_triporate} alt="triporate" height="370px" width="480px" onClick={this.handleShowDialogTrip} />
+                        <img src={img1} alt="triporate" height="370px" width="480px" onClick={this.handleShowDialogTrip} />
                     </dialog>
                 )
 
@@ -65,7 +65,7 @@ class Project extends Component {
 
                         onClick={this.handleShowDialogTesi}
                     >
-                        <img src={img3} alt="triporate" height="370px" width="480px" onClick={this.handleShowDialogTesi} />
+                        <img src={img1} alt="triporate" height="370px" width="480px" onClick={this.handleShowDialogTesi} />
                     </dialog>
                 )
             )

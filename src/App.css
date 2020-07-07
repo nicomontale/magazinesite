@@ -237,7 +237,7 @@ background-size: cover;
   margin-bottom: -335px !important;
 }
 .mdl-card__title_triporate {
-  background-image: url('./components/triporate.png');
+  background-image: url('./components/journal.png');
   background-repeat: no-repeat;
 background-position: 0 0;
 -moz-background-size: cover;
@@ -247,7 +247,7 @@ background-size: cover;
 
 }
 .mdl-card__title_e_commerce {
-  background-image: url('./components/site.png');
+  background-image: url('./components/journal.png');
   background-repeat: no-repeat;
 background-position: 0 0;
 -moz-background-size: cover;
@@ -259,7 +259,7 @@ background-size: cover;
 
 .mdl-card__title_tesi {
 
-  background-image: url('./components/tesi.png');
+  background-image: url('./components/journal.png');
   background-repeat: no-repeat;
 background-position: 0 0;
 -moz-background-size: cover;
