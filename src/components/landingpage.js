@@ -18,11 +18,11 @@ class LandingPage extends Component {
                            
                             <div className="social-links">
                                 {/* Linkedin */}
-                                <a href="https://www.linkedin.com/in/nicola-montaleone-7a3202194/" rel="noopener noreferrer" target="_black">
+                                <a href="https://www.instagram.com/lgbtsportmagazine/" rel="noopener noreferrer" target="_black">
                                     <i className="fa fa-instagram" aria-hidden="true" />
                                 </a>
                                 {/* GitHub */}
-                                <a href="https://github.com/nicomontale" rel="noopener noreferrer" target="_black">
+                                <a href="mailto:lgbtsportmagazine@gmail.com" rel="noopener noreferrer" target="_black">
                                     <i className="fa fa-envelope" aria-hidden="true" />
                                 </a>
                             </div>

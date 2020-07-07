@@ -107,6 +107,9 @@ html, body {overflow-x: scroll;}
   margin: auto;
   min-width: 450;
 }
+.mdl-grid{
+  background-color: white !important;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -217,14 +220,21 @@ html, body {overflow-x: scroll;}
   
 }
 .mdl-card__title_ntt{
-  background-image: url('./components/ntt_data.png');
+  background-image: url('./components/journal.png');
   background-repeat: no-repeat;
-background-position: 0 0;
+
+
 -moz-background-size: cover;
 -webkit-background-size: cover;
 background-size: cover; 
 
 
+}
+.tabs .tab {
+  color:white;
+}
+.author {
+  margin-bottom: -335px !important;
 }
 .mdl-card__title_triporate {
   background-image: url('./components/triporate.png');
@@ -361,7 +371,7 @@ background-size: cover;
   width: min-content;
   
   overflow-x: scroll;
-  background-color:#f58003;
+  background-color:white;
   border-radius:20px; 
   -webkit-box-shadow: 17px -7px 5px -10px rgba(0,0,0,0.62);
   -moz-box-shadow: 17px -7px 5px -10px rgba(0,0,0,0.62);
