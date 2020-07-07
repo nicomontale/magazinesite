@@ -107,7 +107,7 @@ class Project extends Component {
             return (
                 <div className="projects-grid"  >
                     <Card shadow={5} style={{width: '100%'}}>
-                        <Tappable onTap={this.handleShowDialogNTT} style={{ cursor: 'pointer' }}><CardTitle className="mdl-card__title_ntt" style={{ backgroundColor: 'rgb(33, 33, 40)', height: '436px', cursor: 'pointer' }}><h4 className="author" style={{ color: 'black solid bold', fontFamily: 'Roboto Mono,monospace' }}>BY LACEY YAHNKE</h4></CardTitle></Tappable>
+                        <Tappable onTap={this.handleShowDialogNTT} style={{ cursor: 'pointer' }}><CardTitle className="mdl-card__title_ntt" style={{ backgroundColor: 'rgb(33, 33, 40)', height: '436px', cursor: 'pointer' }}><h4 className="author" style={{ color: 'dark', fontWeight:'bold',fontFamily: 'Roboto Mono,monospace' }}>BY LACEY YAHNKE</h4></CardTitle></Tappable>
                         <CardText><h4 style={{ color: '#da7c18', fontFamily: 'Roboto Mono,monospace' }}>It's Awfully Quiet in the Closet</h4>Ryan O’Callaghan has a round face and a cowboy’s horseshoe mustache.
 
 
