@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import img1 from '../components/journal.png';
+import img1 from '../components/journall.png';
 
 import Tappable from 'react-tappable/lib/Tappable';
 
