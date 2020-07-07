@@ -222,8 +222,8 @@ html, body {overflow-x: scroll;}
 .mdl-card__title_ntt{
   background-image: url('./components/journal.png');
   background-repeat: no-repeat;
-
-
+  background-position: 0 0;
+  background-position: center top;
 -moz-background-size: cover;
 -webkit-background-size: cover;
 background-size: cover; 
