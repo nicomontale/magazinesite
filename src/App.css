@@ -220,7 +220,7 @@ html, body {overflow-x: scroll;}
   
 }
 .mdl-card__title_ntt{
-  background-image: url('./components/journalll.jpeg');
+  background-image: url('./components/journall.jpeg');
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: center top;
@@ -294,7 +294,7 @@ background-size: cover;
 
 }
 .mdl-card__title_ntt{
-  background-image: url('./components/journalll.jpeg');
+  background-image: url('./components/journall.jpeg');
   max-width: 100%;
 height: auto;
   background-repeat: no-repeat;
