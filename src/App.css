@@ -295,9 +295,10 @@ background-size: cover;
 }
 .mdl-card__title_ntt{
   background-image: url('./components/journal.png');
+  max-width: 100%;
+height: auto;
   background-repeat: no-repeat;
-  background-position: 0 0;
-  background-position: center top;
+ 
 -moz-background-size: cover;
 -webkit-background-size: cover;
 background-size: cover; 
