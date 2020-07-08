@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 import img1 from '../components/journalll.jpeg';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 import Tappable from 'react-tappable/lib/Tappable';
 
 
@@ -105,7 +106,7 @@ class Project extends Component {
         if (this.state.activeTab === 0) {
             this.setBooleanJava();
             return (
-                <div className="projects-grid"  >
+                <div className="projects-grid" data-aos="zoom-in" data-aos-duration="3000" >
                     <Card shadow={5} style={{width: '100%'}}>
                         <Tappable onTap={this.handleShowDialogNTT} style={{ cursor: 'pointer' }}><CardTitle className="mdl-card__title_ntt" style={{ backgroundColor: 'rgb(33, 33, 40)', height: '436px', cursor: 'pointer' }}><h4 className="author" style={{backgroundColor:'#da7c18',borderRadius: '10px', color: 'dark', fontWeight:'bold',fontFamily: 'Roboto Mono,monospace' }}>&nbsp;BY LACEY YAHNKE&nbsp;</h4></CardTitle></Tappable>
                         <CardText><h4 style={{ color: '#da7c18', fontFamily: 'Roboto Mono,monospace' }}>It's Awfully Quiet in the Closet</h4>Ryan O’Callaghan has a round face and a cowboy’s horseshoe mustache.
@@ -210,7 +211,7 @@ class Project extends Component {
                         
                         One can only hope that someday the National Football League will see a gay player put on the pads and become the man he is supposed to be. Until then, the closeted men of the NFL may continue to hide behind their bitter cups of coffee. </CardText>
                         <Tappable onTap={() => window.open('https://lyahnke.wixsite.com/yahnke/post/it-s-awfully-quiet-in-the-closet', "_blank")}>   <CardActions style={{ backgroundColor: '  #da7c18' }}>
-                            <Button style={{ color: '  10px solid black' }}>Link</Button>
+                            <Button style={{ color: '  10px solid black' }}>SOURCE</Button>
 
                         </CardActions></Tappable>
                         <CardMenu style={{ color: '#fff' }}>
@@ -247,6 +248,9 @@ class Project extends Component {
     }
 
     render() {
+        Aos.init({
+            
+          });
         const { openDialogNTT, openDialogTesi, openDialogTrip } = this.state;
         return (
             <div className="category-tabs"  >
