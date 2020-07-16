@@ -113,6 +113,23 @@ html, body {overflow-x: scroll;}
 
 
 @media only screen and (max-width: 600px) {
+  
+  .stylenews1 {
+    background-image: url('./components/ryan.jpg') ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-position: center top;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+  
+  margin-top:75px;
+  border-radius:20px;
+  margin-right: 15px;
+  margin-left:15px
+  
+  }
   .projects-grid {
     display: inherit;
     justify-content: center;
@@ -305,6 +322,8 @@ background-size: cover;
 
 
 }
+
+
 }
 .mdl-progress {
 
@@ -408,4 +427,43 @@ font-size: 3rem;
 cursor: pointer;
 
 }
+.stylenews1 {
+  background-image: url('./components/ryan.jpg') ;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-position: center top;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+opacity: 0.9;
+display: flex;
+margin-top:75px;
+border-radius:20px;
+margin-right: 15px;
+margin-left:15px
+
+}
+.authorList {
+  color:'white'
+}
+@media (min-width: 600px) {
+  .stylenews1 {
+    background-image: url('./components/journalll.jpeg') ;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-position: center top;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  opacity: 0.9;
+  
+  margin-top:75px;
+  border-radius:20px;
+  margin-right: 15px;
+  margin-left:15px
+}
+.authorList{ color: 'black'}
+}
+
+
 /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
