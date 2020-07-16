@@ -7,8 +7,8 @@ export default class news1 extends Component {
     render() {
         Aos.init({})
         return (
-            <Link data-aos="zoom-in"  data-aos-duration="3000" to="/project" style={{textDecoration:'none'}}>
-            <div data-aos="zoom-in" className="stylenews1">
+            <Link to="/project" style={{textDecoration:'none'}}>
+            <div data-aos="zoom-in" data-aos-duration="3000" className="stylenews1">
             <div style={stylenews}>
             <h1 className="authorList" style={{fontWeight:'bold', marginBottom: '0px',marginLeft:'0px',marginTop:'140px',fontSize:'45px'}}>Ryan O'Callaghan</h1>
            <h3 className="authorList" style={{marginTop: '0px',borderRadius: '10px', fontSize: '25px'}}>BY LACEY YAHNKE</h3>
