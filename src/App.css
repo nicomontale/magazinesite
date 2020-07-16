@@ -114,22 +114,7 @@ html, body {overflow-x: scroll;}
 
 @media only screen and (max-width: 600px) {
   
-  .stylenews1 {
-    background-image: url('./components/ryan.jpg') ;
-    background-repeat: no-repeat;
-    background-position: 0 0;
-    background-position: center top;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  opacity: 0.9;
-  
-  margin-top:75px;
-  border-radius:20px;
-  margin-right: 15px;
-  margin-left:15px
-  
-  }
+ 
   .projects-grid {
     display: inherit;
     justify-content: center;
@@ -237,7 +222,7 @@ html, body {overflow-x: scroll;}
   
 }
 .mdl-card__title_ntt{
-  background-image: url('./components/journalll.jpeg');
+  background-image: url('./components/ryanPhotos/journalll.jpeg');
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: center top;
@@ -311,7 +296,7 @@ background-size: cover;
 
 }
 .mdl-card__title_ntt{
-  background-image: url('./components/journalll.jpeg');
+  background-image: url('./components/ryanPhotos/journalll.jpeg');
   margin-top: 0px !important;
 height: auto;
   background-repeat: no-repeat;
@@ -428,7 +413,7 @@ cursor: pointer;
 
 }
 .stylenews1 {
-  background-image: url('./components/ryan.jpg') ;
+  background-image: url('./components/ryanPhotos/ryan.jpg') ;
   background-repeat: no-repeat;
   background-position: 0 0;
   background-position: center top;
@@ -448,7 +433,7 @@ margin-left:15px
 }
 @media (min-width: 600px) {
   .stylenews1 {
-    background-image: url('./components/journalll.jpeg') ;
+    background-image: url('./components/ryanPhotos/journalll.jpeg') ;
     background-repeat: no-repeat;
     background-position: 0 0;
     background-position: center top;
@@ -456,13 +441,32 @@ margin-left:15px
   -webkit-background-size: cover;
   background-size: cover;
   opacity: 0.9;
-  
+ 
   margin-top:75px;
   border-radius:20px;
   margin-right: 15px;
   margin-left:15px
 }
-.authorList{ color: 'black'}
+.stylenews {
+ color:black;
+  padding:0.9rem;
+   
+  border-radius:20px;
+  
+  text-decoration:none
+}
+
+}
+@media (max-width: 600px) {
+  .stylenews {
+    color: white;
+    padding:0.9rem;
+     
+    border-radius:20px;
+    
+    text-decoration:none
+}
+
 }
 
 

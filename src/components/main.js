@@ -1,7 +1,7 @@
 import React from 'react';
 import LandingPage from './landingpage';
 import {Switch, Route} from 'react-router-dom';
-import News1 from '../news1';
+import News1 from './news1';
 import Project from './project';
 
 
