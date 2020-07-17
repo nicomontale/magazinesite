@@ -16,6 +16,10 @@ export default class news1 extends Component {
             </div>
             </div>
             </Link>
+
+           
+            
+            
         )
     }
 }

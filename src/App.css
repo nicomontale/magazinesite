@@ -232,11 +232,23 @@ background-size: cover;
 
 
 }
+.mdl-card__title_twin{
+  background-image: url('./components/christopherPhotos/twin1.jpg');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-position: center top;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover; 
+
+
+}
 .tabs .tab {
   color:white;
 }
 .author {
-  margin-bottom: -335px !important;
+  margin-bottom: -285px !important;
+  
 }
 
 
@@ -466,7 +478,21 @@ margin-left:15px
     
     text-decoration:none
 }
-
+.stylenews2 {
+  background-image: url('./components/christopherPhotos/twin2.jpg') ;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-position: center top;
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+opacity: 0.9;
+display: flex;
+margin-top:75px;
+border-radius:20px;
+margin-right: 15px;
+margin-left:15px
+}
 }
 
 

@@ -210,8 +210,8 @@ class Project extends Component {
                         <br></br><br></br>
                         
                         One can only hope that someday the National Football League will see a gay player put on the pads and become the man he is supposed to be. Until then, the closeted men of the NFL may continue to hide behind their bitter cups of coffee. </CardText>
-                        <Tappable onTap={() => window.open('https://lyahnke.wixsite.com/yahnke/post/it-s-awfully-quiet-in-the-closet', "_blank")}>   <CardActions style={{ backgroundColor: '  #da7c18' }}>
-                            <Button style={{ color: '  10px solid black' }}>SOURCE</Button>
+                        <Tappable onTap={() => window.open('https://lyahnke.wixsite.com/yahnke/post/it-s-awfully-quiet-in-the-closet', "_blank")}>   <CardActions style={{ backgroundColor: 'black' }}>
+                            <Button style={{ color: '  white' }}>SOURCE</Button>
 
                         </CardActions></Tappable>
                         <CardMenu style={{ color: '#fff' }}>
