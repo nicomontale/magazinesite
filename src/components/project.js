@@ -108,8 +108,8 @@ class Project extends Component {
             return (
                 <div className="projects-grid" data-aos="zoom-in" data-aos-duration="3000" >
                     <Card shadow={5} style={{width: '100%'}}>
-                        <Tappable onTap={this.handleShowDialogNTT} style={{ cursor: 'pointer' }}><CardTitle className="mdl-card__title_ntt" style={{ backgroundColor: 'rgb(33, 33, 40)', height: '436px', cursor: 'pointer' }}><h4 className="author" style={{backgroundColor:'#da7c18',borderRadius: '10px', color: 'dark', fontWeight:'bold',fontFamily: 'Roboto Mono,monospace' }}>&nbsp;BY LACEY YAHNKE&nbsp;</h4></CardTitle></Tappable>
-                        <CardText><h4 style={{ color: '#da7c18', fontFamily: 'Roboto Mono,monospace' }}>It's Awfully Quiet in the Closet</h4>Ryan O’Callaghan has a round face and a cowboy’s horseshoe mustache.
+                        <Tappable onTap={this.handleShowDialogNTT} style={{ cursor: 'pointer' }}><CardTitle className="mdl-card__title_ntt" style={{ backgroundColor: 'rgb(33, 33, 40)', height: '436px', cursor: 'pointer' }}><h4 className="author" style={{backgroundColor:'white',borderRadius: '10px', color: 'dark', fontWeight:'bold',fontFamily: 'Roboto Mono,monospace' }}>&nbsp;BY LACEY YAHNKE&nbsp;</h4></CardTitle></Tappable>
+                        <CardText><h4 style={{ color: 'black', fontFamily: 'Roboto Mono,monospace' }}>It's Awfully Quiet in the Closet</h4>Ryan O’Callaghan has a round face and a cowboy’s horseshoe mustache.
 
 
                         He also has broad shoulders, a thick neck and often wears a furrowed brow. His laugh is hearty, and his eyes are kind, but photos of him crouched in position ready to tackle opponents show how fearsome a figure he can be. 
@@ -216,7 +216,7 @@ class Project extends Component {
                         </CardActions></Tappable>
                         <CardMenu style={{ color: '#fff' }}>
 
-                            <Tappable onTap={this.handleShowDialogNTT} style={{ cursor: 'pointer' }}><IconButton className="clickable" name="photo" style={{ color: '#da7c18', width: '58px', height: '58px', minWidth: 'initial', cursor: 'pointer' }} /></Tappable>
+                            <Tappable onTap={this.handleShowDialogNTT} style={{ cursor: 'pointer' }}><IconButton className="clickable" name="photo" style={{ color: 'white', width: '58px', height: '58px', minWidth: 'initial', cursor: 'pointer' }} /></Tappable>
 
 
 
@@ -255,7 +255,7 @@ class Project extends Component {
         return (
             <div className="category-tabs"  >
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple >
-                    <Tab style={{backgroundColor:'#da7c18'}}>Newspaper</Tab>
+                    <Tab style={{backgroundColor:'white'}}>Newspaper</Tab>
                     
 
 

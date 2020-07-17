@@ -10,8 +10,8 @@ export default class news1 extends Component {
             <Link to="/project" style={{textDecoration:'none'}}>
             <div data-aos="zoom-in" data-aos-duration="3000" className="stylenews1">
             <div className="stylenews">
-            <h1 className="authorList" style={{fontWeight:'bold', marginBottom: '0px',marginLeft:'0px',marginTop:'140px',fontSize:'45px'}}>Ryan O'Callaghan</h1>
-           <h3 className="authorList" style={{marginTop: '0px',borderRadius: '10px', fontSize: '25px'}}>BY LACEY YAHNKE</h3>
+            <h1 className="authorList" style={{fontWeight:'solid bold', marginBottom: '0px',marginLeft:'0px',marginTop:'140px',fontSize:'45px',fontFamily: 'Roboto Mono,monospace'}}>Ryan O'Callaghan</h1>
+           <h3 className="authorList" style={{marginTop: '0px',borderRadius: '10px', fontSize: '25px',fontFamily: 'Roboto Mono,monospace'}}>BY LACEY YAHNKE</h3>
             
             </div>
             </div>
